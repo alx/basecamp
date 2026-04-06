@@ -715,10 +715,11 @@ p { line-height: 1.7; }
   border-color: var(--navy);
   color: var(--white);
 }
-.feature-card--highlight h3 { color: var(--white); }
-.feature-card--highlight p { color: rgba(255,255,255,0.78); }
-.feature-card--highlight .feature-list li { color: rgba(255,255,255,0.7); }
-.feature-card--highlight .feature-list li::before { color: var(--terra-light); }
+.feature-card--highlight h3 { color: #ffffff; }
+.feature-card--highlight p { color: rgba(255,255,255,0.85); }
+.feature-card--highlight .feature-list li { color: rgba(255,255,255,0.8); }
+.feature-card--highlight .feature-list li::before { color: #c27a4a; }
+.feature-card--highlight .feature-badge { color: #ffffff; }
 .feature-card--highlight:hover { border-color: var(--navy-mid); }
 
 .feature-badge {
