@@ -1,7 +1,6 @@
 baseURL = "https://alx.github.io/basecamp/"
 languageCode = "en-us"
 title = "BaseCamp AI"
-theme = ""
 
 [params]
   description = "Sovereign AI. Local. Secure."
