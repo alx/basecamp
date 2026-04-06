@@ -722,6 +722,14 @@ p { line-height: 1.7; }
 .feature-card--highlight .feature-badge { color: #ffffff; }
 .feature-card--highlight:hover { border-color: var(--navy-mid); }
 
+.feature-card--highlight,
+.feature-card--highlight h3,
+.feature-card--highlight p,
+.feature-card--highlight li,
+.feature-card--highlight span {
+  color: #ffffff !important;
+}
+
 .feature-badge {
   display: inline-block;
   background: var(--terra);
@@ -764,6 +772,14 @@ p { line-height: 1.7; }
   left: 0;
   color: var(--terra);
   font-size: 0.8rem;
+}
+
+.feature-card--highlight,
+.feature-card--highlight h3,
+.feature-card--highlight p,
+.feature-card--highlight li,
+.feature-card--highlight span {
+  color: #ffffff !important;
 }
 
 /* ============================================================
