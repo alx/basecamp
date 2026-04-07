@@ -1233,3 +1233,28 @@ p { line-height: 1.7; }
   background: rgba(250,248,245,0.96);
   box-shadow: 0 1px 20px rgba(26,58,92,0.08);
 }
+
+/* ============================================================
+   HERO IMAGE
+   ============================================================ */
+
+.hero-img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  display: block;
+}
+
+/* ============================================================
+   CASE CARD IMAGES
+   ============================================================ */
+
+.case-card-img {
+  width: 100%;
+  height: 160px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px 8px 0 0;
+  margin: -1.5rem -1.5rem 1.25rem -1.5rem;
+  width: calc(100% + 3rem);
+}

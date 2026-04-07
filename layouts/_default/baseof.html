@@ -8,6 +8,13 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ "images/favicon-base.png" | relURL }}">
+  <link rel="apple-touch-icon" href="{{ "images/favicon-base.png" | relURL }}">
+  <meta property="og:image" content="{{ "images/og-preview.png" | absURL }}">
+  <meta property="og:title" content="BaseCamp AI — Sovereign AI. Local. Secure.">
+  <meta property="og:description" content="Private local AI infrastructure for families and professionals. 100% cloud-free.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="{{ "images/og-preview.png" | absURL }}">
 </head>
 <body>
   {{ block "main" . }}{{ end }}

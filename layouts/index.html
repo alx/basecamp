@@ -54,53 +54,7 @@
     </div>
     <div class="hero-visual">
       <div class="office-card">
-        <div class="office-scene">
-          <div class="scene-bg">
-            <div class="window">
-              <div class="window-view">
-                <div class="sky"></div>
-                <div class="building b1"></div>
-                <div class="building b2"></div>
-                <div class="building b3"></div>
-              </div>
-            </div>
-          </div>
-          <div class="desk">
-            <div class="server-unit">
-              <div class="server-face">
-                <div class="server-led led-green"></div>
-                <div class="server-led led-blue"></div>
-                <div class="server-slots"></div>
-              </div>
-              <div class="shield-holo">
-                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="rgba(100,180,255,0.6)" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-              </div>
-            </div>
-            <div class="laptops">
-              <div class="laptop l1"><div class="screen"><div class="screen-content"></div></div><div class="base"></div></div>
-              <div class="laptop l2"><div class="screen"><div class="screen-content"></div></div><div class="base"></div></div>
-            </div>
-          </div>
-          <div class="family">
-            <div class="person p-adult">
-              <div class="person-head"></div>
-              <div class="person-body"></div>
-            </div>
-            <div class="person p-child1">
-              <div class="person-head"></div>
-              <div class="person-body"></div>
-            </div>
-            <div class="person p-child2">
-              <div class="person-head"></div>
-              <div class="person-body"></div>
-            </div>
-          </div>
-          <div class="data-lines">
-            <div class="data-line dl1"></div>
-            <div class="data-line dl2"></div>
-            <div class="data-line dl3"></div>
-          </div>
-        </div>
+        <img src="{{ "images/hero-illustration.png" | relURL }}" alt="BaseCamp AI — Private local server setup" class="hero-img">
         <div class="office-caption">Private AI — Family Office Setup</div>
       </div>
     </div>
@@ -174,6 +128,7 @@
     <h2>Proven Across<br>High-Stakes Industries</h2>
     <div class="cases-grid">
       <div class="case-card">
+        <div class="case-card-img" style="background-image: url('{{ "images/case-legal.png" | relURL }}')"></div>
         <div class="case-icon">
           <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
             <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/>
@@ -189,6 +144,7 @@
         <div class="case-metric"><strong>60%</strong> faster contract review</div>
       </div>
       <div class="case-card">
+        <div class="case-card-img" style="background-image: url('{{ "images/case-healthcare.png" | relURL }}')"></div>
         <div class="case-icon">
           <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
             <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
@@ -200,6 +156,7 @@
         <div class="case-metric"><strong>100%</strong> data stays on-premise</div>
       </div>
       <div class="case-card">
+        <div class="case-card-img" style="background-image: url('{{ "images/case-finance.png" | relURL }}')"></div>
         <div class="case-icon">
           <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
             <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
