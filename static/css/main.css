@@ -698,7 +698,8 @@ p { line-height: 1.7; }
 
 .feature-card {
   position: relative;
-  padding: 32px 28px;
+  padding: 24px 20px;
+  min-height: 160px;
   background: var(--cream);
   border: 1.5px solid var(--border);
   border-radius: var(--radius-lg);
@@ -803,7 +804,7 @@ p { line-height: 1.7; }
   background: var(--white);
   border: 1.5px solid var(--border);
   border-radius: var(--radius-lg);
-  padding: 32px 28px;
+  padding: 20px 20px 24px;
   transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
 }
 .case-card:hover {
