@@ -1259,3 +1259,29 @@ p { line-height: 1.7; }
   margin: -1.5rem -1.5rem 1.25rem -1.5rem;
   width: calc(100% + 3rem);
 }
+.hero-tagline {
+  font-size: 1.15rem;
+  color: var(--slate-light);
+  margin: -0.5rem 0 2rem;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+}
+.card-sub {
+  font-size: 0.85rem;
+  color: var(--slate-light);
+  margin: 0.35rem 0 0;
+  font-style: italic;
+  line-height: 1.4;
+}
+.feature-card--highlight .card-sub {
+  color: rgba(255,255,255,0.65);
+}
+.section-sub {
+  font-size: 1rem;
+  color: var(--slate-light);
+  margin: -0.75rem 0 2.5rem;
+  max-width: 480px;
+}
+.tech .section-sub {
+  color: rgba(255,255,255,0.55);
+}
