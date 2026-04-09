@@ -888,9 +888,9 @@ p { line-height: 1.7; }
 
 .tech-item {
   display: flex;
-  align-items: center;
-  gap: 14px;
-  padding: 18px 24px;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 32px 28px;
   border-bottom: 1px solid rgba(255,255,255,0.06);
   border-right: 1px solid rgba(255,255,255,0.06);
   transition: background var(--transition);
@@ -900,13 +900,15 @@ p { line-height: 1.7; }
 .tech-item:nth-last-child(-n+2) { border-bottom: none; }
 
 .tech-dot {
-  width: 7px; height: 7px;
+  width: 8px; height: 8px;
   border-radius: 50%;
   background: var(--terra);
   flex-shrink: 0;
-  box-shadow: 0 0 6px rgba(194,122,74,0.5);
+  margin-top: 6px;
+  box-shadow: 0 0 8px rgba(194,122,74,0.5);
 }
-.tech-item span { font-size: 0.88rem; color: rgba(255,255,255,0.78); }
+.tech-name { font-size: 0.92rem; font-weight: 700; color: rgba(255,255,255,0.95); margin-bottom: 6px; letter-spacing: 0.01em; }
+.tech-desc { font-size: 0.78rem; color: rgba(255,255,255,0.5); line-height: 1.5; margin: 0; }
 
 /* Claw callout */
 .tech-claw {
